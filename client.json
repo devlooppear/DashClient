@@ -1,0 +1,22 @@
+{
+  "cliente": [
+    {
+      "id": 1,
+      "nome": "Manuel",
+      "email": "manuelgomes@gmail.com",
+      "senha": "manuel123"
+    },
+    {
+      "nome": "Ted",
+      "email": "tedmosby@gmail.com",
+      "senha": "ted123",
+      "id": 2
+    },
+    {
+      "nome": "Jonny",
+      "email": "jonny@gmail.com",
+      "senha": "jonny123",
+      "id": 3
+    }
+  ]
+}
