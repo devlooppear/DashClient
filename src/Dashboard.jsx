@@ -3,7 +3,10 @@ import axios from 'axios';
 import userImg from './assets/img/user-img.png';
 import { useHistory } from 'react-router-dom';
 
-const API_URL = 'http://localhost:6900'; // Altere para a URL correta da sua API
+const PORT = 6900 || process.env.PORT
+
+const API_URL = `http://localhost:${PORT}` 
+// Altere para a URL correta da sua API
 
 function Dashboard() {
   const history = useHistory();
